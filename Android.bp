@@ -1,0 +1,34 @@
+// Automatically generated file. DO NOT MODIFY
+
+soong_namespace {
+}
+
+android_app_import {
+	name: "DaxUI",
+	owner: "moto",
+	apk: "proprietary/system/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "moto",
+	apk: "proprietary/system/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.dolby.hardware.dms",
+	owner: "moto",
+	src: "proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360_2.0-service.xml",
+	filename_from_src: true,
+	soc_specific: true,
+}
