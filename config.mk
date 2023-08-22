@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/dolby/atmos/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
     vendor/dolby/atmos/proprietary/vendor/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360_2.0-service:$(TARGET_COPY_OUT_VENDOR)/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360_2.0-service \
     vendor/dolby/atmos/proprietary/system/etc/permissions/com.motorola.software.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.software.dolbyui.xml \
-    vendor/dolby/atmos/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.dolby.daxservice.xml \
+    vendor/dolby/atmos/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.dolby.daxservice.xml \
     vendor/dolby/atmos/proprietary/system/etc/permissions/privapp-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.motorola.dolby.dolbyui.xml \
     vendor/dolby/atmos/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/config-com.dolby.daxservice.xml \
     vendor/dolby/atmos/proprietary/system/etc/sysconfig/config-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/config-com.motorola.dolby.dolbyui.xml \   
